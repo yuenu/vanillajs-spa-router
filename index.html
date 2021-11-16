@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com">
+  <title>Vanilla JS SPA Router</title>
+  <style>
+    body { font-family: sans-serif;}
+  </style>
+</head>
+<body>
+    <h1>Vanilla JS SPA Router</h1>
+    
+    <ul> 
+      <li>
+        <!-- <a href="/" role="navigate" onclick="onNavigate('/'); return false;">Home</a>
+        <a href="/about" role="navigate" onclick="onNavigate('/about'); return false;">about</a>
+        <a href="/contact" role="navigate" onclick="onNavigate('/contact'); return false;">contact</a> -->
+        <a href="/" role="navigate">Home</a>
+        <a href="/about" role="navigate">about</a>
+        <a href="/contact" role="navigate">contact</a>
+      </li>
+    </ul>
+    <div id="root"></div>
+    <script src="./app.js"></script>
+</body>
+</html>
